@@ -7,8 +7,8 @@ let data = [
 const indexes = data.map((dataitem) => dataitem);
 
 
-data.pop()
+data.pop();
 
-
+// Expecting a completely different list
 console.log("Source: " + data)
 console.log("Target: " + indexes)
